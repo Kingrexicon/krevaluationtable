@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="h2">
+            <h2>EVALUATION TABLE</h2>
+        </div>
+        <marquee behavior="" direction="">Note ❕❗❕ : Input the value of your rows and column (Numbers) to set your
+            evaluation table, then click on any of the arithmetic Buttons to get your values... To clear inputs, click on
+            button "clear"... for more, follow on <img src="twiw.svg" width="15px" alt=""> @kingrexicon </marquee>
+        <div class="div">
+            <input type="number" placeholder="row" id="numbb">
+            <input type="number" placeholder="column" id="numbr">
+        </div>
+        <section>
+            <button onclick="timesIt()">multiplication</button>
+            <button onclick="addIt()">Addition</button>
+            <button onclick="minusIt()">subtraction</button>
+            <button onclick="divideIt()">division</button>
+            <button onclick="cleaR()">clear</button>
+        </section>
+        <div></div>
+
+        <table border="1" id="disp">
+
+        </table>
+    </center>
+    <script src="./multi.js"></script>
+</body>
+
+</html>

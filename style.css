@@ -1,0 +1,72 @@
+
+body{
+background-image: url(silver-2143730.jpg);
+background-size: cover;
+min-height:39.45rem;
+background-repeat: no-repeat;
+}
+
+.h2{
+    border: 0.1px solid rgba(109, 108, 123, 0.034);
+    background-color: rgba(195, 193, 188, 0.346);
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0.4px rgba(37, 40, 69);
+}
+.h2 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+    color: rgb(37, 40, 69);
+    font-weight: 500px;
+    font-size: 200%;
+   text-shadow: 3px 4px 4px rgb(58, 53, 53) ;
+}
+.div{
+    margin-top: 50px;
+}
+
+#disp{
+    background-color: rgba(222, 222, 222, 0.512);
+    color:  rgb(72, 72, 68); ;
+    border:2px solid  rgb(210,210,218) ;
+}
+#disp tr{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+marquee{
+    margin-top: 10px;
+    font-family: cursive;
+    color: rgb(116,118,107);
+    box-shadow: 0 0 1px 3px inset rgb(210,210,218);
+    background-color: rgb(222,222,222);
+}
+
+input{
+background-color: rgb(222,222,222);
+border: 4px ridge rgb(210,210,218);
+color: rgb(116,118,107);
+margin: 1%;
+}
+input::placeholder{
+    color: rgb(116,118,107);
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+}
+
+button{
+    background-color: rgb(139,137,148);
+    padding: 2% 2%;
+    box-shadow: 0px 2px 1px 2px  rgba(37, 40, 69);
+    border-radius: 20%;
+    margin: 1% 2%;
+}
+button:hover{
+    filter: invert(100%);
+}
+
+section{
+margin: 40px 0;
+}
+
